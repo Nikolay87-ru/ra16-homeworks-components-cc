@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ShopItemProps } from '../types';
+import { ShopItemProps } from '../components/types';
 
 class ShopItemClass extends Component<ShopItemProps> {
   render() {

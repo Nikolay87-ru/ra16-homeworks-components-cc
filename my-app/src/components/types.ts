@@ -1,4 +1,4 @@
-export interface IShopItem {
+export interface ShopItem {
   brand: string;
   title: string;
   description: string;
@@ -8,5 +8,5 @@ export interface IShopItem {
 }
 
 export interface ShopItemProps {
-  item: IShopItem;
+  item: ShopItem;
 }

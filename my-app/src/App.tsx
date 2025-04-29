@@ -1,8 +1,8 @@
 import './App.css';
-import ShopItemClass from './components/ShopItemClass';
+import { ShopItem } from './components/types';
 
 function App() {
-  const item = {
+  const item: ShopItem = {
     brand: 'Tiger of Sweden',
     title: 'Leonard coat',
     description: 'Minimalistic coat in cotton-blend',
@@ -18,7 +18,7 @@ function App() {
         <div className='highlight-overlay'></div>
       </div>
       <div className="window">
-        <ShopItemClass item={item} />
+        <ShopItem item={item} />
       </div>
     </div>
   );

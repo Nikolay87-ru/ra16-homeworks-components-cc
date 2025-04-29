@@ -7,6 +7,6 @@ export interface ShopItem {
   currency: string;
 }
 
-export interface ShopItemProps {
+export type ShopItemProps = {
   item: ShopItem;
-}
+};

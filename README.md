@@ -6,7 +6,9 @@
 
 #### В проект установлены пакеты:
 
-+ Vite (TypeScript)
++ Сборщик проекта Vite 
++ React
++ TypeScript
 + Eslint
 
 **Процесс выполнения**
